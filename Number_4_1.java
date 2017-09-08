@@ -1,13 +1,7 @@
 package projet_1.projet_1;
 
 public class Number_4_1 {
-/*public int getQuantityOfDigits(long a){
-while (a/10>0){
-	k*=10;
-	i++;
-	}
-return i;
-}*/
+
 boolean  ifNumbersAreFriendy(long a, long b){
 	long k = 10; 
 	long aNumberOfDigits=1, bNumberOfDigits=1; 
@@ -27,8 +21,7 @@ boolean  ifNumbersAreFriendy(long a, long b){
 	                                       	a_dig=((a-(a%k))/k)%10;
 	                                       	//System.out.println("a_dig"+i+"="+ a_dig);
 	                                       	k=k*10;
-	                                       //	a_current=(a_current-a_dig)/10;
-	                                       	result=false;
+	                                      	result=false;
 	                                       	int c=1;
 	                                       //	b_current=b;
 	                                       	for (int j=1; j<=bNumberOfDigits; j++) {
